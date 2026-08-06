@@ -8,6 +8,6 @@ int main(int argc, char *argv[]) {
 	printf("Digite a base a a altura do triangulo respectivamente: ");
 	scanf("%d %d", &b, &h);
 	
-	printf("\nA área do triangulo é %d %d", b * h);
+	printf("\nA Ã¡rea do triangulo Ã© %d %d", (b * h) / 2);
 	return 0;
 }
