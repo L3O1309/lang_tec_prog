@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+/* Exercício 2 linguagem e técnicas de programação */
 
 int main(int argc, char *argv[]) {
-	int b, h;
+	float b, h; // float para número reais
 	printf("Digite a base a a altura do triangulo respectivamente: ");
-	scanf("%d %d", &b, &h);
+	scanf("%f %f", &b, &h); //sacnf é como um input e %f é como o %d, serve para identificar o tipo de valor da variável informada
 	
-	printf("\nA área do triangulo é %d %d", (b * h) / 2);
+	printf("\nA área do triangulo é %f %f", (b * h) / 2); 
 	return 0;
 }
