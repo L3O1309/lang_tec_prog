@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Aula 2 do professor Dacio, matÈria de LTP (linguagem e tÈcnicas de programaÁ„o) */
+/* Aula 2 do professor Dacio, mat√©ria de LTP (linguagem e t√©cnicas de programa√ß√£o) */
 
 int main(int argc, char *argv[]) {
 	float a, b, c;
-	printf("Escreva sua nota dos 3 trimestres para tirar a mÈdia: ");
-	scanf("%f %f %f", &a, &b, &c);
+	printf("Escreva sua nota dos 3 trimestres para tirar a m√©dia: ");
+	scanf("%f %f %f", &a, &b, &c); //recebe as 3 notas
 	
-	printf("\nSua mÈdia do anual È: %f", (a + b + c) / 3);
+	printf("\nSua m√©dia do anual √©: %f", (a + b + c) / 3); //usa as notas recebidas e calcula a m√©dia anual do trimestre
 	
 	return 0;
 }
