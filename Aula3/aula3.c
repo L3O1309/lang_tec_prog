@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
 	raio *= raio;
 	area = pi*raio;
 	
-	printf("A area é: %f", area);
+	printf("A area Ã©: %f", area);
 
 	printf("\nAgora vamos calcular a area do trapezio");
 	float B, b, h, area2;
