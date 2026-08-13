@@ -94,15 +94,15 @@ int main(int argc, char *argv[]) {
 
 	printf("\nExercício 6\n");
 	
-	int idadedias, ano, mes, dia, aux;
+	int idadedias, ano, mes, dia, aux2;
 	
 	printf("Digite sua idade em dias: ");
 	scanf("%d", &idadedias);
 	
 	ano = idadedias / 365;
-	aux = idadedias % 365;
-	mes = aux / 30;
-	dia = aux % 30;
+	aux2 = idadedias % 365;
+	mes = aux2 / 30;
+	dia = aux2% 30;
 	
 	printf("Sua idade é de aproximadamente... %d anos, %d meses e %d dias.", ano, mes, dia);
 	
