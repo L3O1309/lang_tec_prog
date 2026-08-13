@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Aula 2 do professor Dacio, matéria de LTP (linguagem e técnicas de programação) */
+/* Aula 2 do professor Dacio, matÃ©ria de LTP (linguagem e tÃ©cnicas de programaÃ§Ã£o) */
 
 int main(int argc, char *argv[]) {
 	int a, b, c, r1, r2, r3;
@@ -12,7 +12,7 @@ int main(int argc, char *argv[]) {
 	r2 = a/b;
 	r3 = a*b;
 	
-	printf("As operações de %d %d são: +%d -%d /%d *%d", a, b, c, r1, r2, r3);
+	printf("As operaÃ§Ãµes de %d %d sÃ£o: +%d -%d /%d *%d", a, b, c, r1, r2, r3);
 	
 	return 0;
 }
