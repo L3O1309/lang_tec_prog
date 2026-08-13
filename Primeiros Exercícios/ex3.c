@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Exercício 4 da aula do professor Dacio, matéria de LTP (linguagem e técnicas de programação) */
+/* Exercício 3 da aula do professor Dacio, matéria de LTP (linguagem e técnicas de programação) */
 
 int main(int argc, char *argv[]) {
 	float a, b, c;
