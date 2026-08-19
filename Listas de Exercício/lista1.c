@@ -38,28 +38,28 @@ int main(int argc, char *argv[]) {
 	int b1, b2, b3, b4, b5,b6,b7;
 	printf("Digite um número: ");
 	scanf("%d", &n); //Confesso que quebrei a cabeça, mas entendi que podia aplicar o sistema de conversão em "tabela de conversão" que o Cidão ensinou
+	//Para 13
+	b1 = n/64; //0 pq não cabe
+	n = n % 64; //13
 	
-	b1 = n/64;
-	n = n % 64;
+	b2 = n/32; //0 não cabe
+	n = n % 32; //13
 	
-	b2 = n/32;
-	n = n % 32;
+	b3 = n/16; //0 pq não cabe
+	n = n %16; //13
 	
-	b3 = n/16;
-	n = n %16;
+	b4 = n/8; //Vai 1 pq cabe
+	n = n%8; // Sobra 5
 	
-	b4 = n/8;
-	n = n%8;
+	b5 = n/4; //Vai 1 pq cabe
+	n = n%4; //Sobra 1
 	
-	b5 = n/4;
-	n = n%4;
+	b6 = n/2; //0 pq não cabe
+	n = n%2; //Sobra 1
 	
-	b6 = n/2;
-	n = n%2;
+	b7 = n; //Se torna a sobra que é 1
 	
-	b7 = n;
-	
-	printf("Em binário: %d %d %d %d %d %d %d", b1, b2, b3, b4, b5, b6, b7);
+	printf("Em binário: %d %d %d %d %d %d %d", b1, b2, b3, b4, b5, b6, b7); //Printa 0001101
 	
 //Exercício 4
 	printf("\nExercício 4\n");
@@ -130,7 +130,8 @@ int main(int argc, char *argv[]) {
 	printf("Digite a coordenada do ponto 2 (eixo x e eixo y): ");
 	scanf("%f %f", &x2, &y2);
 	
-	dist = (((x2-x1)*(x2-x1)) + ((y2-y1)*(y2-y1)));//Poderia ter facilitado com o pow, mas quando percebi deu preguiça de mudar, fica difícil entender vendo, mas se executar o resultado é o mesmo ;)
+	dist = (((x2-x1)*(x2-x1)) + ((y2-y1)*(y2-y1)));//Poderia ter facilitado com o pow, mas quando percebi deu preguiça de mudar, 
+												   //fica difícil entender vendo, mas se executar o resultado é o mesmo ;)
 	
 	dfinal = sqrt(dist);
 	
