@@ -37,7 +37,7 @@ int main(int argc, char *argv[]) {
 	int n;
 	int b1, b2, b3, b4, b5,b6,b7;
 	printf("Digite um número: ");
-	scanf("%d", &n); //Confesso que quebrei a cabeça, mas entendi que podia aplicar o sistema de conversão em "escadinha" que o Cidão ensinou
+	scanf("%d", &n); //Confesso que quebrei a cabeça, mas entendi que podia aplicar o sistema de conversão em "tabela de conversão" que o Cidão ensinou
 	
 	b1 = n/64;
 	n = n % 64;
