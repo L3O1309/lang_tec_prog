@@ -4,7 +4,7 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-setlocale(LC_ALL, "Portuguese"); // Descobri o locale.h para setar a linguagem em portugues e permitir printf com é, ú, ô, etc
+setlocale(LC_ALL, "Portuguese"); // Descobri o locale.h para setar a linguagem em portugues e permitir printf com acento (é, ú, ô, etc)
 	int a, b, c, d, e, maiorab, maiorabc, maiorabcd, maiorabcde;
 	
 	printf("Digite o primeiro número: ");
