@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include <locale.h>
 
-/* Teve que introduzir um fluxograma, pois 50% da sala não tinha visto e não tinha sido introdizido em algoritmos*/
+/* Aula 5 - LTP 
+   Teste de Lógica com autenticação de número par e ímpar
+*/
 
 int main(int argc, char *argv[]) {
 setlocale(LC_ALL, "Portuguese");
