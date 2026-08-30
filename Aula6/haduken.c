@@ -39,7 +39,7 @@ setlocale(LC_ALL, "Portuguese");
 	}
 
 	else{
-		printf("Seus valores absolutos: %d %d", n1inv, n2inv);
+		printf("Seus valores inversos: %d %d", n1inv, n2inv);
 	}
 	
 	return 0;
