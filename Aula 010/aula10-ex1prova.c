@@ -16,7 +16,7 @@ setlocale(LC_ALL, "Portuguese");
 	scanf("%d", &n3);
 	printf("Quarto: ");
 	scanf("%d", &n4);
-	//Ímpares
+	//Validação
     if (n1 % 2 != 0) {
         if (n1 % 5 == 0){
 		printf("%d Atende os requisitos\n", n1);
