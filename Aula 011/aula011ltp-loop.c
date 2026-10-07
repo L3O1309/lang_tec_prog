@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-/* 10 números, 
-vê o maior entre os 5 primeiros
-e o menor entre os 5 últimos */
+/* 10 nÃºmeros, 
+vÃª o maior entre os 5 primeiros
+e o menor entre os 5 Ãºltimos */
 
 int main(int argc, char *argv[]) {
 setlocale(LC_ALL, "Portuguese");
@@ -11,7 +11,7 @@ setlocale(LC_ALL, "Portuguese");
 	int i, maior, menor;
 	
 	for (i = 0; i < 10; i++){
-		printf("Digite o número %d: ", i + 1);
+		printf("Digite o nÃºmero %d: ", i + 1);
 		scanf("%d", &vetor[i]);
 	}
 	return 0;
