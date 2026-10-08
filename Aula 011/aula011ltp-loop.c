@@ -11,8 +11,9 @@ setlocale(LC_ALL, "Portuguese");
 	int i, maior, menor;
 	
 	for (i = 0; i < 10; i++){
-		printf("Digite o número %d: ", i + 1);
+		printf("Digite o %dº número: ", i + 1);
 		scanf("%d", &vetor[i]);
 	}
+	
 	return 0;
 }
