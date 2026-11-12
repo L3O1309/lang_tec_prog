@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* Aula 17 - LTP */
+/* Aula 17 - LTP 
+   Professor revisou os conteúdos, 
+   então fiz qualquer coisa, 
+   mas só commitei no dia seguinte, perdão :(*/
 
 int main(int argc, char *argv[]) {
 	int a, b;
